@@ -1,0 +1,13 @@
+name='Anu'
+age=14
+marks=88.6
+is_firstrank=True
+
+
+age=float(age)
+is_firstrank=str(is_firstrank)
+
+print(type(name))
+print(type(age))
+print(type(marks))
+print(type(is_firstrank))
