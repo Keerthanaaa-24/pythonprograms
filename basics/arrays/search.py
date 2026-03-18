@@ -6,4 +6,4 @@ if key in arr:
         print("Element found and removed")
 else:
         print("Element not found")
-print("Array:",arr)
+print(" Updated Array:",arr) 
