@@ -1,14 +1,9 @@
-arr = [18, 28, 39, 66, 83]
+arr = list(map(int,input("Enter elements:").split()))
 
-key = int(input("Enter element to search: "))
-found = False
-
-for i in arr:
-    if i == key:
-        found = True
-        break
-
-if found:
-    print("Element found")
+key = int(input("Enter element to remove the founded element: "))
+if key in arr:
+        arr.remove(key)
+        print("Element found and removed")
 else:
-    print("Element not found")
+        print("Element not found")
+print("Array:",arr)
