@@ -1,4 +1,8 @@
-def sum(n,m):
-    print("Sum of 2 numbers is:",n+m)
+def keerthu(a,b):
+    return a+b
 
-sum(13,24)
+n1 = int(input("Enter a number:"))
+n2 = int(input("Enter a number:"))
+
+addition = keerthu(n1,n2)
+print(addition)
