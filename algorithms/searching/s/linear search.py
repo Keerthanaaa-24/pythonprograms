@@ -4,6 +4,7 @@ def linear_search(arr, key):
             return i
     return -1
 
+
 arr = [14, 26, 88, 56, 124]
 key = int(input("Enter number to search: "))
 
