@@ -1,5 +1,5 @@
 name='Keerthana'
-age=19
+age=20
 is_student=True
 if is_student:
     print(f"Keerthana is a Student")
